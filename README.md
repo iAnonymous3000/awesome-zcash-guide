@@ -10,6 +10,7 @@ Key milestones in Zcash's development include:
 - The Sprout upgrade in 2018, which introduced the Sapling protocol for improved efficiency and security of shielded transactions.
 - The Blossom upgrade in 2019, which reduced block times and improved scalability.
 - The Heartwood upgrade in 2020, which introduced new privacy features and performance improvements.
+- NU6 upgrade in 2024, which introduced the lockbox pool and block reward halving
 
 ## Understanding Zcash
 
@@ -35,13 +36,17 @@ Key milestones in Zcash's development include:
 
 To securely store ZEC, a dedicated wallet is essential:
 
-**Software Wallets**: Consider wallets like ZecWallet Lite or multi-coin wallets such as Atomic and Guarda. Ensure the secure setup of your wallet by using complex passwords, enabling encryption, and understanding the importance of wallet backup and recovery phrases.
-*Recommended*: [ZecWallet Lite Setup Guide](https://zecwallet.co/)
+**Software Wallets**: Consider shielded by default wallets [here](https://zechub.wiki/wallets) . Zashi, Ywallet, Zingo, or Ezcash are recommended. 
 
-**Hardware Wallets**: For enhanced security, offline storage options like Trezor are recommended. These devices offer protection against online threats and are essential for securing large amounts of ZEC.
-*Guide*: [How to use Zcash with Trezor](https://trezor.io/learn/a/zcash-zec)
+*Recommended*: [Watch current state of mobile wallets!](https://www.youtube.com/watch?v=ao4ORC_VNcY)
+
+**Hardware Wallets**: For enhanced security, offline storage options like [Keystone](https://keyst.one/) are recommended. These devices offer protection against online threats and are essential for securing large amounts of ZEC.
+
+*Guide*: [How to use Zcash with Keystone](https://x.com/zashi_app/status/1869793574880973144)
 
 **Full Node vs Light Wallets**: Full node wallets download and verify the entire Zcash blockchain, providing the highest level of security and privacy. Light wallets, on the other hand, rely on third-party servers for transaction verification, offering convenience at the cost of some privacy and security trade-offs.
+
+*Guide*: [Zebra Node](https://www.youtube.com/watch?v=FfH5jiX8pT0)
 
 **Security Best Practices**:
 - Use strong, unique passwords for your wallet and enable two-factor authentication when available.
@@ -107,9 +112,11 @@ To securely store ZEC, a dedicated wallet is essential:
 ## Additional Resources
 
 - [Z.cash – Official Website](https://z.cash/)
-- [Zcash Wiki](https://zecpages.com/)
+- [Zecpages](https://zecpages.com/)
+- [ZecHub Wiki](https://zechub.wiki/)
+- [ZecHub Github Repository](https://github.com/ZecHub)
+- [ZecHub YouTube](https://www.youtube.com/@zechub/featured)
 - [Zcash GitHub Repository](https://github.com/zcash)
-- [Z.cash Foundation Blog](https://z.cash.foundation//blog/)
 - [ZecWallet – Zcash Wallet](https://zecwallet.co/)
 - [Nighthawk Wallet – Zcash Wallet](https://nighthawkwallet.com/)
 - [Zcash Community Forum](https://forum.zcashcommunity.com/)
