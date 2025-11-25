@@ -100,16 +100,15 @@ When you create a wallet, you will get a list of **12 or 24 words**.
 
 ⏱️ **First-Time Setup Note:** When you first open Zashi (or any shielded wallet), it needs to "scan" the blockchain to find your transactions. This can take a few minutes depending on your connection. This is normal—the wallet is searching through encrypted data to find what belongs to you without revealing anything to servers. Be patient on first sync!
 
-### Best Hardware Wallet: Keystone
+### Hardware Wallets (Optional)
 
-If you're storing serious value, you need a **Keystone** wallet.
+For users storing large amounts long-term, hardware wallets like **Keystone** offer air-gapped security (QR codes, no USB/Bluetooth) with full shielded Zcash support.
 
-**Why:**
-- 🔐 **Air-gapped**: Uses QR codes, not USB/Bluetooth
-- ✅ **Full shielded Zcash support** - Private money in cold storage
-- 🛡️ **Never connects** to an infected computer
+**That said:** Modern smartphones (especially iPhones and Google Pixels) are already quite secure for most users. The convenience and security of a phone you already own often outweighs the marginal security gain of a hardware wallet. 
 
-**Get Keystone:** [keyst.one](https://keyst.one)
+**Recommendation:** Start with Zashi on your phone. Only consider hardware wallets if you're holding significant value and comfortable with the extra complexity.
+
+**Get Keystone (if needed):** [keyst.one](https://keyst.one)
 
 ---
 
