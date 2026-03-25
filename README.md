@@ -139,7 +139,17 @@ This is currently the fastest way to swap **BTC $\to$ ZEC** without an account. 
     3.  Swap. The protocol sends BTC in, and Native ZEC comes out.
 * **Critical Security Step:** Once the ZEC arrives in your wallet (Zashi/Keystone), it will be visible publicly. **You must "Shield" it immediately.** (Zashi does this automatically).
 
-#### **Option 3: P2P Markets (Bisq / RoboSats)**
+#### **Option 3: BitcoinVN (Shielded ZEC Support)**
+One of the very few exchanges that supports **shielded Zcash transactions** — meaning you can deposit and withdraw directly to z-addresses. No "shielding step" required afterward.
+* **The Tool:** [bitcoinvn.io](https://bitcoinvn.io)
+* **How it works:** A non-custodial instant exchange. You send BTC (or other crypto) and receive ZEC directly to your shielded address. No account needed for crypto-to-crypto swaps.
+* **Why it matters for privacy:**
+    * **Shielded deposits & withdrawals:** Supports z-address sends, so your ZEC arrives already private. Most exchanges only support transparent addresses.
+    * **No account required:** Crypto-to-crypto swaps work without sign-up or KYC.
+    * **Non-custodial:** Your funds are never held in a custodial wallet. Swap and receive directly.
+    * **Operating since 2014:** One of the longest-running exchanges in the space.
+
+#### **Option 4: P2P Markets (Bisq / RoboSats)**
 For advanced users, you can buy ZEC directly from another person.
 * **Bisq:** A decentralized desktop app. You buy ZEC using bank transfers or money orders. No ID required, but slower and lower liquidity.
 
