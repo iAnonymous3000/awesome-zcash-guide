@@ -661,6 +661,18 @@ Unlike Bitcoin's volunteer model, Zcash has **structured, transparent funding**:
 
 ---
 
+## Developer Tools
+
+| Tool | Description |
+|------|-------------|
+| [zcash-mcp](https://github.com/Frontier-Compute/zcash-mcp) | MCP server exposing 22 Zcash tools for AI agents. Shielded send, memo decode, attestation, proof verification. `npx @frontiercompute/zcash-mcp` |
+| [zap1-verify](https://github.com/Frontier-Compute/zap1-verify) | Rust crate and EVM contracts for on-chain verification of ZAP1 Merkle proofs. Deployed on Ethereum, Arbitrum, Base, Hyperliquid, Sepolia. |
+| [Zebra](https://github.com/ZcashFoundation/zebra) | Zcash Foundation's node implementation in Rust. |
+| [librustzcash](https://github.com/zcash/librustzcash) | Rust crates for Zcash protocol (orchard, sapling, zcash_primitives). |
+| [zcash-cli](https://zcash.readthedocs.io/) | Reference CLI wallet and RPC interface from Electric Coin Company. |
+
+---
+
 ## Contributing
 
 We welcome contributions to improve this guide!
