@@ -433,6 +433,9 @@ Using Zcash gives you *cryptographic* privacy (the math works), but you can leak
 **Travel:**
 - **Travala**: Book hotels and flights with ZEC
 
+**Mobile & Connectivity:**
+- **PikaSim**: Anonymous eSIMs for 190+ countries and real carrier phone numbers, paid with shielded ZEC via a self-hosted BTCPay Server. No account, email, or KYC.
+
 **Direct Merchants:** Growing list of merchants accepting ZEC directly
 
 ---
