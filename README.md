@@ -37,7 +37,7 @@ When every transaction is tracked, financial privacy is the last line of defense
 - ✅ **True cryptographic privacy** via zk-SNARKs (zero-knowledge proofs)
 - ✅ **Trustless** - No trusted setup required (Orchard/Halo 2)
 - ✅ **Scalable** - Project Tachyon enables billions of users
-- ✅ **Anonymity set: 5.57+ million** vs. Monero's 16
+- ✅ **Anonymity set**: identify the shielded pool, relevant note set and observation date instead of an undated total. A note count and a per-input ring size are not directly comparable measures. See the [Zcash Protocol Specification, Shielded Pools and Notes](https://zips.z.cash/protocol/protocol.pdf).
 - ✅ **Transaction fees: < $0.01** 
 - ✅ **Supply cap: 21 million ZEC** (same as Bitcoin)
 
@@ -92,7 +92,7 @@ When you create a wallet, you will get a list of **12 or 24 words**.
 
 **Why it's the best:**
 - 🛡️ **Auto-shielding**: Automatically converts transparent (public) ZEC to private
-- 🔒 **No metadata leakage** to RPC nodes
+- 🔒 **Shielded payment privacy does not guarantee zero metadata exposure**: inspect the wallet's current server and networking design. [ZIP 316](https://zips.z.cash/zip-0316) defines Unified Address receiver types; address appearance alone does not identify the transfer type used. [ZEC View's beginner privacy guide](https://zecview.com/privacy/) is a secondary explanation of wallet/network and transparent-transfer limitations; prefer primary protocol and wallet documentation for definitive details.
 - 📱 **Clean UI** that anyone can use
 - ✅ **Shielded by default**
 
