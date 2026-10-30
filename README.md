@@ -143,6 +143,13 @@ This is currently the fastest way to swap **BTC $\to$ ZEC** without an account. 
 For advanced users, you can buy ZEC directly from another person.
 * **Bisq:** A decentralized desktop app. You buy ZEC using bank transfers or money orders. No ID required, but slower and lower liquidity.
 
+#### **Option 4: Unpair (through the shielded pool)**
+Unpair swaps BTC, stablecoins and other assets to ZEC and back, with Zcash's shielded pool in the middle.
+* **The Tool:** [unpair.xyz](https://unpair.xyz) (open source: [github.com/unpairxyz/unpair](https://github.com/unpairxyz/unpair))
+* **How it works:** The route (NEAR Intents) pays ZEC to a fresh shielded Zcash address. You choose who holds that ZEC between the two hops: a one-time wallet made in your browser tab, Unpair's server, or your own Zcash wallet. Hop two sends the asset you chose to the address you give.
+* **Why it's different:** The ZEC lands in a shielded address, and the deposit and the payout are separate transactions on separate chains. Fees are shown before you deposit and capped in code at 1% per hop.
+* **Note:** Early software with small caps (1 ZEC per swap on the server path). Read the [threat model](https://github.com/unpairxyz/unpair/blob/main/docs/threat-model.md) before relying on it.
+
 ---
 
 ### 🛡️ Critical: The "Shielding" Step
